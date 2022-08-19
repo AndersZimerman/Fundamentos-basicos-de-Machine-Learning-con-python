@@ -1,4 +1,4 @@
-# 
+#Se usa para simplificar codigo
 #Ejemplo basico
 #dividir la palabra 'Python' por letras y ponerlo en una lista
 lista = []
