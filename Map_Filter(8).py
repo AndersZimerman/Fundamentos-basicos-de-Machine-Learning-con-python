@@ -1,10 +1,6 @@
-#Map lista, tupla, conjunto
-from ast import Return
-
-
+#Map devuelve un objeto de asignación (un iterador) que podemos usar en otras partes de nuestro programa
 def mult(n):
     return n * 5
-
 lista = [0,1,2,3,4,5,6,7]
 lista_map = list(map(mult,lista)) #Map aplicara lo puesto en el primer parametro al segundo y luego almacenara el resultado en la variable lista_map
 print(lista_map)
